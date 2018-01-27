@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>myscan</id>
+    <name>My Scan</name>
+    <summary>Scan QR with any camera on your device</summary>
+    <description><![CDATA[# Scan
+
+- get to the page
+- select a camera
+- put a QR in front of you]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="gbrault@seadev.org" homepage="https://github.com/gbrault/scan">Gilbert Brault</author>
+    <namespace>MyScan</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/gbrault/scan/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>My Scan</name>
+            <route>myscan.page.index</route>
+        </navigation>
+    </navigations>
+</info>

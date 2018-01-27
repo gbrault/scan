@@ -1,0 +1,15 @@
+{
+    "name": "My Scan",
+    "description": "Scan QR with any camera on your device",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Gilbert Brault"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
